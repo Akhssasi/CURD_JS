@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>table 2</title>
+</head>
+<body>
+    
+<section>
+    <h1>CURD JAVASCREPT</h1>
+    <form >
+        
+        <input type="name"  id="FullName" placeholder="Name">
+        <input type="number" id="numberUser" placeholder="number"><br><br>
+        <button id="addUser" class="addUser">Craete</button>
+        <button  class="ClearAllData" onclick="ClearAllData()" >Clear All</button>
+    </form>
+    <div class="form_table">
+        <h1>table</h1>
+        <table >
+            <thead>
+                <tr>
+                    <th>id</th>
+                    <th>Name</th>
+                    <th>Mumber</th>
+                    <th>edit</th>
+                    <th>remove</th>
+                </tr>
+            </thead>
+            <tbody id="exportdata">
+                <!-- <tr>
+                    <td>1</td>
+                    <td>ahmee</td>
+                    <td>34</td>
+                    <td><button class="editButton">Edit</button></td>
+                    <td><button class="RemoveButton">Remove</button></td>
+                </tr> -->
+            </tbody>
+        </table>
+    </div>
+
+</section>
+
+
+
+<script src="script.js"></script>
+
+</body>
+</html>

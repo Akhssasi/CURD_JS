@@ -1,0 +1,57 @@
+
+body{
+    background-color: rgb(18, 18, 87);
+    color: white;
+}
+section{
+    width: 100%;
+}
+table{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+table,tr,td,th{
+    border: solid 2px rgb(54, 79, 201);
+    border-collapse:collapse;
+}
+.editButton{
+    background-color: orange;
+    padding: 4px;
+    border-radius: 3px;
+    border: none;
+    margin: 5px;
+    cursor: pointer;
+}
+.RemoveButton{
+    background-color: rgb(228, 92, 29);
+    padding: 4px;
+    border-radius: 3px;
+    border: none;
+    margin: 5px;
+    cursor: pointer;
+}
+h1{
+    text-align: center;
+}
+.addUser{
+    background-color: rgb(15, 247, 15);
+    border: solid 2px rgb(25, 9, 128);
+    color: rgb(80, 70, 122);
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 4px;
+
+}
+form{
+    text-align: center;
+}
+.ClearAllData{
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    padding: 4px;
+}
+
